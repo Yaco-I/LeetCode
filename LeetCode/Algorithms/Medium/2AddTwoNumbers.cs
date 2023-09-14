@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LeetCode.Algorithms.Medium
+{
+    public static class _2AddTwoNumbers : IShowExercises
+    {
+        public static void ShowExercises()
+        {
+            //throw new NotImplementedException();
+        }
+
+
+    }
+}

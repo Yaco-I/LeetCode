@@ -1,11 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode.Algorithms.Easy;
 
-Console.WriteLine("Hello, World!");
 
-//Exercices.E1282View(new int[] { 3, 3, 3, 3, 3, 1, 3 });
-Exercices.ViewArray(_1TwoSum.TwoSum(new int[] { 3, 3 }, 6));
-Exercices.ViewArray(_1TwoSum.TwoSum(new int[] { 2, 7, 11, 15 }, 9));
 
 
 
