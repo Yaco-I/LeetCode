@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode.Algorithms.Easy;
 
-Console.WriteLine(5/2);
 
+_21MergeTwoSortedList.ViewExercise();
 
 
 public class Exercices
