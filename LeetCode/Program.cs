@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode.Algorithms.Easy;
+using LeetCode.Algorithms.Easy._0_100;
 
-
-_21MergeTwoSortedList.ViewExercise();
+var view = new RemoveElements26(new int[] { 1, 1, 2 });
 
 
 public class Exercices
@@ -10,6 +10,7 @@ public class Exercices
     public static int E1572(int[][] array)
     {
         var result = 0;
+      
         for (int i = 0; i < array.Length; i++)
         {
             if (i != array.Length - i - 1)
