@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode.Algorithms.Easy;
 using LeetCode.Algorithms.Easy._0_100;
+using LeetCode.Algorithms.Easy._201_300;
 
-var view = new RemoveElements26(new int[] { 1, 1, 2 });
+new ValidAnagram242();
 
 
 public class Exercices
