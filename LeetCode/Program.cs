@@ -3,8 +3,8 @@ using LeetCode.Algorithms.Easy;
 using LeetCode.Algorithms.Easy._0_100;
 using LeetCode.Algorithms.Easy._201_300;
 
-new ValidAnagram242();
-
+//new AddDigits258();
+new ContainsDuplicateII();
 
 public class Exercices
 {

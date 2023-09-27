@@ -9,11 +9,7 @@ namespace LeetCode.Algorithms.Easy._201_300
 {
     public class ValidAnagram242
     {
-        public ValidAnagram242()
-        {
-            var result = IsAnagram("anagram", "nagaram");
-            Console.WriteLine(result);
-        }
+        
 
         public bool IsAnagram(string s, string t)
         {
