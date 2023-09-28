@@ -8,10 +8,7 @@ namespace LeetCode.Algorithms.Medium;
 
 public static class _2AddTwoNumbers
 {
-    public static void ShowExercises()
-    {
-        //throw new NotImplementedException();
-    }
+    
 
     /// <summary>
     /// It was made with github copilot only using the function name
