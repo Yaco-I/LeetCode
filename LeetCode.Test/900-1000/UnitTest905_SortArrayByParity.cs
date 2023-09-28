@@ -1,4 +1,4 @@
-﻿using LeetCode.Algorithms.Easy;
+﻿using LeetCode.Algorithms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
