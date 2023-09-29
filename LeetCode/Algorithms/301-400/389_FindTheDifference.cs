@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Algorithms.Easy._301_400
 {
-    public class EncuentraLaDiferecia389
+    public static class FindTheDifference
     {
-        public EncuentraLaDiferecia389()
-        {
-            
-        }
+        
 
-        private int FindTheDifference(string s, string t)
+        public static int FindTheDifferenceMethod(string s, string t)
         {
             var sArray = s.ToCharArray();
             var tArray = t.ToCharArray();

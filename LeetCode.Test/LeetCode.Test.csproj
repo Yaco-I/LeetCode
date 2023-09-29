@@ -20,8 +20,4 @@
     <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="201-300\" />
-  </ItemGroup>
-
 </Project>

@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Algorithms.Easy
 {
-    public static class _392IsSubsequence
+    public static class IsSubsequence
     {
-        public static void ViewExercise()
-        {
-            Console.WriteLine(IsSubsequence("abc", "ahbgdc"));
-        }
-
-        public static bool IsSubsequence(string s, string t)
+        
+        public static bool IsSubsequenceMethod(string s, string t)
         {
             int index = 0;
             bool flag = false;
