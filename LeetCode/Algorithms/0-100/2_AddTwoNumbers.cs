@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Algorithms.Medium;
 
-public static class _2AddTwoNumbers
+public static class AddTwoNumbers
 {
     
 
@@ -16,7 +16,7 @@ public static class _2AddTwoNumbers
     /// <param name="l1"></param>
     /// <param name="l2"></param>
     /// <returns></returns>
-    public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public static ListNode AddTwoNumbersMethod(ListNode l1, ListNode l2)
     {
         ListNode result = new ListNode();
         ListNode current = result;

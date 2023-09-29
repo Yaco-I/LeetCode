@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Algorithms.Easy
 {
-    public static class _9PalindromeNumber
+    public static class PalindromeNumber
     {
-        public static bool PalindromeNumber(int numero)
+        /*
+         * Given an integer x, return true if x is a
+         * palindrome, and false otherwise.
+         */
+        public static bool PalindromeNumberMethod(int numero)
         {
             string num = numero.ToString();
             int valor = num.Length / 2;

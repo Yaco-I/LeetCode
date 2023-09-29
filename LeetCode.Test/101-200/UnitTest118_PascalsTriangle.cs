@@ -6,8 +6,25 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Test
 {
-    //TODO: Add tests
-    internal class UnitTest118_PascalsTriangle
+    [TestClass]
+    public class UnitTest118_PascalsTriangle
     {
+        [TestMethod]
+        public void TestMethod_PascalsTriangle1()
+        {
+            int numRows = 5;
+            IList<IList<int>> expected = new List<IList<int>>();
+            expected.Add(new List<int>() { 1 });
+            expected.Add(new List<int>() { 1, 1 });
+            expected.Add(new List<int>() { 1, 2, 1 });
+            expected.Add(new List<int>() { 1, 3, 3, 1 });
+            expected.Add(new List<int>() { 1, 4, 6, 4, 1 });
+            IList<IList<int>> actual = LeetCode.Algorithms.Easy._101_200.PascalsTriangle.Generate(numRows);
+            CollectionAssert.AreEqual(expected[0].ToList(), actual[0].ToList());
+            CollectionAssert.AreEqual(expected[0].ToList(), actual[1].ToList().ToList());
+            CollectionAssert.AreEqual(expected[2].ToList(), actual[2].ToList());
+            CollectionAssert.AreEqual(expected[3].ToList(), actual[3].ToList());
+            CollectionAssert.AreEqual(expected[4].ToList(), actual[4].ToList());
+        }   
     }
 }

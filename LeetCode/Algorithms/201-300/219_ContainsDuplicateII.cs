@@ -8,16 +8,14 @@ namespace LeetCode.Algorithms.Easy._0_100
 {
     public class ContainsDuplicateII
     {
+        /*
+         * Given an integer array nums and an integer k,
+         * return true if there are two distinct indices i and j 
+         * in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+         */
 
-        public ContainsDuplicateII()
-        {
-            Console.WriteLine(ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1 }, 3));
-            Console.WriteLine(ContainsNearbyDuplicate(new int[] { 1, 2, 3, 1, 2, 3 }, 2));
-            //Console.WriteLine(ContainsNearbyDuplicate(new int[] { 1, 0,1,1 }, 3));
 
-        }
-
-        public bool ContainsNearbyDuplicate(int[] nums, int k)
+        public static bool ContainsNearbyDuplicate(int[] nums, int k)
         {
             int cant = nums.Length;
             if (cant == 0)
