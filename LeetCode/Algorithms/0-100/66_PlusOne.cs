@@ -31,6 +31,16 @@ namespace LeetCode.Algorithms._0_100
                     break;
                 }
             }
+            if (carry == 1)
+            {
+                int[] newDigits = new int[digits.Length + 1];
+                newDigits[0] = 1;
+                for (int i = 0; i < digits.Length; i++)
+                {
+                    newDigits[i + 1] = digits[i];
+                }
+                digits = newDigits;
+            }
             return digits;
         }
     }
