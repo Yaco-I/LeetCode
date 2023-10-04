@@ -1,8 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LeetCode.Algorithms.Easy;
-using LeetCode.Algorithms.Easy._0_100;
-using LeetCode.Algorithms.Easy._201_300;
-
 
 public class Exercices
 {

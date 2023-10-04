@@ -1,24 +1,18 @@
 ﻿using LeetCode.Algorithms;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LeetCode.Test._501_600
+namespace LeetCode.Test._501_600;
+
+[TestClass]
+public class UnitTest557_ReverseWordsInAStringIII
 {
-    [TestClass]
-    public class UnitTest557_ReverseWordsInAStringIII
+    [TestMethod]
+    public void TestMethodReverseWords()
     {
-        [TestMethod]
-        public void TestMethodReverseWords()
-        {
-            var input = "Let's take LeetCode contest";
-            var output = "s'teL ekat edoCteeL tsetnoc";
+        var input = "Let's take LeetCode contest";
+        var output = "s'teL ekat edoCteeL tsetnoc";
 
-            var result = ReverseWordsInAStringIII.ReverseWords(input);
-            Assert.AreEqual(output, result);
-            
-        }
+        var result = ReverseWordsInAStringIII.ReverseWords(input);
+        Assert.AreEqual(output, result);
+        
     }
 }
