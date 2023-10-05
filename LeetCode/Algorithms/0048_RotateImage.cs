@@ -4,30 +4,61 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Algorithms
+namespace LeetCode.Algorithms;
+
+public class RotateImage
 {
-    public class RotateImage
+    public static int[][] Rotate(int[][] matrix)
     {
-        public static int[][] Rotate(int[][] matrix)
+        //int n = matrix.Length;
+
+        //// Transponer la matriz en su lugar
+        //for (int i = 0; i < n; i++)
+        //{
+        //    for (int j = i + 1; j < n; j++)
+        //    {
+        //        int temp = matrix[i][j];
+        //        matrix[i][j] = matrix[j][i];
+        //        matrix[j][i] = temp;
+        //    }
+        //}
+
+        //// Invertir las columnas para obtener la rotación de 90 grados
+        //for (int i = 0; i < n; i++)
+        //{
+        //    for (int j = 0; j < n / 2; j++)
+        //    {
+        //        int temp = matrix[i][j];
+        //        matrix[i][j] = matrix[i][n - 1 - j];
+        //        matrix[i][n - 1 - j] = temp;
+        //    }
+        //}
+        //return matrix;
+
+
+        int length = matrix.Length;
+
+        for (int i = 0; i < length; i++)
         {
-            
-            //int n = 3; // Cambia este valor según tus necesidades
-            int[][] matriz = new int[matrix.Length][];
-
-            for (int i = 0; i < matrix.Length; i++)
+            for (int j = i; j < length; j++)
             {
-                matriz[i] = new int[matriz.Length];
-            }
-
-            for (int i = 0; i < matrix.Length; i++)
-            {
-                for (int j = matrix.Length - 1; j >= 0; j--)
+                int temp = matrix[i][j];
+                int vali = i;
+                int valj = j;
+                do
                 {
-                    matriz[i][ matrix.Length - 1 - j] = matrix[j][i];
-                }
+                    matrix[vali][valj] = temp;
+                    var tem = valj;
+                    valj = length - vali;
+                    vali = tem;
+                    temp = matrix[valj][length - vali];
+
+
+                } while (vali != i || valj != j); ;
             }
-            
-            return matriz;
         }
+        return matrix;
+
+
     }
 }
