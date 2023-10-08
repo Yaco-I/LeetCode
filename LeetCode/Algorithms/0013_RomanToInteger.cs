@@ -11,14 +11,16 @@ namespace LeetCode.Algorithms
         public static int RomanToInt(string s)
         {
             int sum = 0;
-            Dictionary<char,int> map = new Dictionary<char,int>();
-            map.Add('I', 1);
-            map.Add('V', 5);
-            map.Add('X', 10);
-            map.Add('L', 50);
-            map.Add('C', 100);
-            map.Add('D', 500);
-            map.Add('M', 1000);
+            Dictionary<char, int> map = new Dictionary<char, int>
+{
+    { 'I', 1 },
+    { 'V', 5 },
+    { 'X', 10 },
+    { 'L', 50 },
+    { 'C', 100 },
+    { 'D', 500 },
+    { 'M', 1000 }
+};
 
             int prev = int.MaxValue;
 
@@ -36,21 +38,6 @@ namespace LeetCode.Algorithms
 
                 prev = map[character];
             }
-
-
-
-            //for (int i = 0; i < s.Length; i++)
-            //{
-            //    if (map[s[i]] > prev)
-            //    {
-            //        sum -= map[s[i]];
-            //    }
-            //    else
-            //    {
-            //        sum += map[s[i]];
-            //    }
-            //    prev = map[s[i]];
-            //}
             return sum;
         }
     }
