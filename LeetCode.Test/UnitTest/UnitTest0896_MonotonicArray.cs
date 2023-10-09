@@ -1,6 +1,6 @@
 ﻿using LeetCode.Algorithms;
 
-namespace LeetCode.Test._801_900;
+namespace LeetCode.Test.UnitTest;
 
 [TestClass]
 public class UnitTest896_MonotonicArray

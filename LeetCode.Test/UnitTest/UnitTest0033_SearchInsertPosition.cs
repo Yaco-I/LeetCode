@@ -1,6 +1,6 @@
 using LeetCode.Algorithms;
 
-namespace LeetCode.Test;
+namespace LeetCode.Test.UnitTest;
 
 [TestClass]
 public class UnitTest0033_SearchInsertPosition

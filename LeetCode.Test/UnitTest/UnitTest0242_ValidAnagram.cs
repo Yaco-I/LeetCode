@@ -1,6 +1,6 @@
 ﻿using LeetCode.Algorithms;
 
-namespace LeetCode.Test._201_300;
+namespace LeetCode.Test.UnitTest;
 
 [TestClass]
 public class UnitTest0242_ValidAnagram

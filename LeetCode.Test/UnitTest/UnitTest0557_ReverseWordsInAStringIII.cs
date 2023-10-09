@@ -1,6 +1,6 @@
 ﻿using LeetCode.Algorithms;
 
-namespace LeetCode.Test._501_600;
+namespace LeetCode.Test.UnitTest;
 
 [TestClass]
 public class UnitTest557_ReverseWordsInAStringIII

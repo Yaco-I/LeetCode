@@ -1,16 +1,15 @@
 ﻿using LeetCode.Algorithms;
 
-namespace LeetCode.Test
+namespace LeetCode.Test.UnitTest;
+
+//TODO: Add tests
+[TestClass]
+public class UnitTest392_IsSubsequence
 {
-    //TODO: Add tests
-    [TestClass]
-    public class UnitTest392_IsSubsequence
+    [TestMethod]
+    public void TestMethod_IsSubsequence()
     {
-        [TestMethod]
-        public void TestMethod_IsSubsequence()
-        {
-            Assert.IsTrue(IsSubsequence.IsSubsequenceMethod("abc", "ahbgdc"));
-            Assert.IsFalse(IsSubsequence.IsSubsequenceMethod("axc", "ahbgdc"));
-        }
+        Assert.IsTrue(IsSubsequence.IsSubsequenceMethod("abc", "ahbgdc"));
+        Assert.IsFalse(IsSubsequence.IsSubsequenceMethod("axc", "ahbgdc"));
     }
 }
