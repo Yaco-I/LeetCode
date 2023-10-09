@@ -29,6 +29,7 @@
 + #2833 Furthest Point From Origin
 # Medium
 + #2 2AddTwoNumbers
++ #34 Find First and Last Position of Element in Sorted Array
 + #36 Valid Sodoku
 + #2038 Remove Colored Pieces If Both Neighbors Are The Same Color
 
