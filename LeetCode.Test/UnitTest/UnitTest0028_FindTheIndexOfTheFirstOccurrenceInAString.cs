@@ -19,13 +19,22 @@ namespace LeetCode.Algorithms
 
             // Act
             int actual = FindTheIndexOfTheFirstOccurrenceInAString.FindTheIndexOfTheFirstOccurrenceInAStringMethod(haystack, needle);
-            // Assert
-            //Assert.AreEqual(expected, actual);
+            
+            Assert.AreEqual(expected, actual);
 
             haystack = "mississippi";
             needle = "issip";
             expected = 4;
-            Assert.AreEqual(true, haystack.Contains(needle));
+            actual = FindTheIndexOfTheFirstOccurrenceInAString.FindTheIndexOfTheFirstOccurrenceInAStringMethod(haystack, needle);
+
+            Assert.AreEqual(expected, actual);
+
+
+            haystack = "aabaaadaaac";
+            needle = "aabaaac";
+            expected = 3;
+            actual = FindTheIndexOfTheFirstOccurrenceInAString.FindTheIndexOfTheFirstOccurrenceInAStringMethod(haystack, needle);
+            Assert.AreEqual(expected, actual);
 
         }
     }
