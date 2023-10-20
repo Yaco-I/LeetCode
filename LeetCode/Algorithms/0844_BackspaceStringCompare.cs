@@ -11,7 +11,7 @@ namespace LeetCode.Algorithms
         public static bool BackspaceCompare(string s, string t)
         {
             string sResult = BackspaceString(s);
-            string tResult =BackspaceString(t);
+            string tResult = BackspaceString(t);
 
             return sResult == tResult;
         }
