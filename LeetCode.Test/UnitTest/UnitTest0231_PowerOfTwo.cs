@@ -3,7 +3,7 @@
 namespace LeetCode.Test.UnitTest
 {
     [TestClass]
-    public class UntiTest0231_PowerOfTwo
+    public class UnitTest0231_PowerOfTwo
     {
         [TestMethod]
         public void TestMethod1()

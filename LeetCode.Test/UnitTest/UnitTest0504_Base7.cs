@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LeetCode.Test.UnitTest
 {
     [TestClass]
-    public class UnitTest504_Base7
+    public class UnitTest0504_Base7
     {
         [TestMethod]
         public void TestMethod1()

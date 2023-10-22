@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace LeetCode.Test.UnitTest
 {
     [TestClass]
-    public class UnitTest500_KeyboardRow
+    public class UnitTest0500_KeyboardRow
     {
         [TestMethod]
         public void TestMethod1()

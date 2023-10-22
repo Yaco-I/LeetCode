@@ -8,7 +8,7 @@ using LeetCode.Algorithms;
 namespace LeetCode.Test.UnitTest
 {
     [TestClass]
-    public class UntiTest0013_RomanToInteger
+    public class UnitTest0013_RomanToInteger
     {
         [TestMethod]
         public void TestMethod1()

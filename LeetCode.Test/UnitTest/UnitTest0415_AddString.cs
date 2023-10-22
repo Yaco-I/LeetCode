@@ -3,7 +3,7 @@
 namespace LeetCode.Test.UnitTest;
 
 [TestClass]
-public class UnitTest415_AddString
+public class UnitTest0415_AddString
 {
     [TestMethod]
     public void TestMethod()
