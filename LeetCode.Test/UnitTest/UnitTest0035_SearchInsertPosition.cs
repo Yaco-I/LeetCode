@@ -3,7 +3,7 @@ using LeetCode.Algorithms;
 namespace LeetCode.Test.UnitTest;
 
 [TestClass]
-public class UnitTest0033_SearchInsertPosition
+public class UnitTest0035_SearchInsertPosition
 {
     [TestMethod]
     public void TestMethodSearchInsert()
