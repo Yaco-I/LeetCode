@@ -46,6 +46,7 @@
 + #2833 Furthes point from Origin
 ## Mediuim
 + #2 2AddTwoNumbers
++ #7 Reverse Integer
 + #12 Integer To Roman
 + #17 Letter Combinations of a Phone Number
 + #34 Find First and Last Position of Element in Sorted Array
