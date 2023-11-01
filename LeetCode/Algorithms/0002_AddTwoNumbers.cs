@@ -34,7 +34,6 @@ public static class AddTwoNumbers
                 sum += l2.val;
                 l2 = l2.next;
             }
-
             current.next = new ListNode(sum % 10);
             current = current.next;
             carry = sum / 10;
